@@ -1,0 +1,36 @@
+body{
+    background-color: khaki;
+}
+
+h1{
+    text-shadow: 1px 1px 2px rgb(139, 185, 32), 0 0 25px rgb(211, 242, 178), 0 0 3px rgb(142, 230, 88);
+}
+
+h3{
+    color: rgb(4, 78, 105);
+}
+figure{
+    display: inline-block;
+}
+figcaption {
+    text-align: center;
+}
+
+#amiable,#ambitious{
+    color: rgb(136, 7, 45);
+}
+img{
+    width: 250px;
+    padding: auto;
+}
+#pad{
+    padding-left: 5px;
+}
+
+#writer,#director,#genre{
+    color: brown;
+}
+p{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
