@@ -1,4 +1,5 @@
-// 1. 
+// 1. Print out green because we returning the value in the global variable
+
 // let grapes = "green"; // grape variable is on global scoope.
 
   
@@ -16,7 +17,8 @@
 // console.log(fruits()()); 
 
 
-// 2. 
+// 2.  Return 20 because we reassigned x before we call our function.
+
 // let x = 10; // the variable is decleared in on global scoope
 
 // function globalVar(){  // this function
@@ -39,7 +41,8 @@
 
  
 
-// 3. 
+// 3. Undefined because we don’t the returned function expects an arguement which we haven’t passed during the call.
+
 // function sport(message){ // the parameter of the function is re-assigned to "hi"
 
 //     message = "Hi"; 
