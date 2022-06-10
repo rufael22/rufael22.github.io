@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+
+
+<body>
+    <form method="post" action = "/add">
+        <div id="fill">
+       
+            <div id="firstName">FirstName: <input id="fname" type="text" name="fname" ></div>
+            <div id="About">About: <textarea name="about" id="about" cols="25" rows="2"></textarea></div>
+            <div id="Gender">Gender: Male <input class="ma" type="radio" name="gender" value="male">Female<input class="ma" type="radio" name="gender" value="female"></div>
+           <div id="Course">Courses:
+             <select id="ca" name="courses">
+                 <optgroup label="Front End" >
+                <option value="maths">WAP</option>
+                <option value="wap">MWA</option>
+                <option value="fpp">WAA</option>
+            </optgroup>
+            <optgroup label="Back End">
+                <option value="maths">FPP</option>
+                <option value="wap">MPP</option>
+                <option value="fpp">ASD</option>
+            </optgroup>
+             </select></div>
+             <div id="Gadget">Gadget:
+                <input id="gadget1" type="checkbox" name="gadget" value="phone">
+                <label for="gadget1">phone:</label>
+    
+                <input id="gadget2" type="checkbox" name="gadget" value="laptop">
+                <label for="gadget2">Laptop:</label>
+    
+                <input id="gadget3" type="checkbox" name="gadget" value="Tablet">
+                <label for="gadget3">Tablet:</label>
+               
+               </div>
+           
+               <div id ="submit"><input id="submitButton" type="submit" value="Submit">
+                <input id="clear" type="submit" value="Clear">
+            
+            </div>
+            
+        </div>
+    
+        <div id="submitted"></div> </form>
+    
+    
+
+</body>
+</html>
