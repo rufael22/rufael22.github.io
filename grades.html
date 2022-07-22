@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Retrieve Grade</title>
+</head>
+
+<body>
+    <h1>Retrieve your grade</h1>
+    <form action="http://mumstudents.org/params.php" method="post">
+        <label>Name: <input type="text" name="student's name" placeholder="Enter name here..."></label>
+        <label>Student ID: <input type="text" name="student ID" placeholder="Enter ID here..."></label>
+        <label>Select Assignment:
+            <select name="assignment">
+                <option value="lab01">About Me</option>
+                <option selected value="lab02">Recipe Exercise</option>
+                <option value="grades">Grades Exercise</option>
+                <option value="movie review">Movie Review Exercise</option>
+            </select>
+        </label>
+        <fieldset>
+            <legend>Which Entry:</legend>
+            <input type="radio" name="student entyr" value="Feb 2022" checked>Feb 2022
+            <input type="radio" name="student entyr" value="May 2022">May 2022
+            <input type="radio" name="student entyr" value="Aug 2022" >Aug 2022
+            <input type="radio" name="student entyr" value="Nov 2022">Nov 2022
+            Get Grade!
+        </fieldset>
+        <label>I confirm I am not lying and that I am looking for my own grades. <br>
+            <input type="checkbox" name="confirm">I confirm.
+            <input type="checkbox" name="don't confirm" checked>No.
+        </label>
+        <br>
+        <input type="submit" value="Get Grade!">
+    </form>
+
+</body>
+
+</html>

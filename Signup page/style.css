@@ -1,0 +1,42 @@
+fieldset{
+    background-color: #e1dafa;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+    box-shadow: 2px 2px darkgray;
+    width: 500px;
+    font-family: verdana;
+    overflow: auto;
+}
+
+legend{
+    border: 1px solid lightgray;
+    background-color: white;
+    box-shadow: 1px 1px darkgray;
+}
+label{
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    top: 4px;
+}
+
+input[type="submit"]{
+    background-color: hotpink;
+    font-weight: bold;
+    font-family: Verdana;
+    border: 1.5px solid rgb(175, 175, 175);
+    box-shadow: 1px 1px gray;
+}
+
+.lefty{
+    float: left;
+    width: 150px;
+    height: 100%;
+    position: relative;
+    top: -3px;
+    font-size: 17px;
+}
+
+.righty{
+    overflow: auto;
+}

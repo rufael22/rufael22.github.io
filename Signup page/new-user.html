@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Sing-Up</title>
+</head>
+<body>
+    <form action="http://mumstudents.org/params.php">
+        <fieldset>
+            <legend>New User Signup:</legend>
+            <div class="lefty">
+                <label>Name:</label> <br>
+                <label>Gender:</label> <br>
+                <label>Age:</label> <br>
+                <label>Personality Type:</label> <br>
+                <label>Favorite OS:</label> <br>
+                <label>Seeking Age:</label> <br>
+                
+            </div>
+            <div class="righty">
+                <input type="text" name="Name" size="16">
+                <br>
+
+                <input type="radio" name="Gender" value="Male">Male 
+                <input type="radio" name="Gender" value="Female" checked>Female
+                <br>
+
+                <input type="text" name="Age" size="6" maxlength="2">
+                <br>
+
+                <input type="text" name="Personality Type" size="6" maxlength="4">
+                <a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp">(Don't know your type?)</a>
+                <br>
+
+                <select name="Favorite OS">
+                    <option value="Windows" selected>Windows</option>
+                    <option value="Mac OS X">Mac OS X</option>
+                    <option value="Linux">Linux</option>
+                </select>
+                <br>
+
+                <input type="text" name="Seeking Age(min)" size="6" maxlength="2" placeholder="min">
+                 to 
+                <input type="text" name="Seeking Age(max)" size="6" maxlength="2" placeholder="max">
+                <br>
+
+
+            </div>
+            <input type="submit" value="Sign Up">
+            
+        </fieldset>
+    </form>
+    <br>
+    <a href="https://validator.w3.org/https://rufael22.github.io"><img src="w3c-html.png" alt="Valid HTML5" /></a> <br />
+	<a href="https://jigsaw.w3.org/css-validator/https://rufael22.github.io"><img src="w3c-css.png" alt="Valid CSS" /></a>
+</body>
+</html>
