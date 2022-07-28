@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="ascii.css" type="text/css" rel="stylesheet" />
+    <script src="animations.js"></script>
+    <script src="ascii.js"></script>
+    <title>ASCIImation</title>
+</head>
+
+<body>
+    <h1>CS472: ASCII Animation Viewer</h1>
+    <textarea name="animate" id="viewboard" cols="80" rows="20" readonly></textarea>
+
+    <div id="controlsDiv">
+        <fieldset>
+            <legend>Play controls:</legend>
+            <button id="start">Start</button>
+            <button id="stop" disabled>Stop</button>
+        </fieldset>
+        <fieldset>
+            <legend>Animation:</legend>
+            <select name="animation" id="animations">
+                <option value="blank">Blank</option>
+                <option value="exercise">Exercise</option>
+                <option value="juggler">Juggler</option>
+                <option value="bike">Bike</option>
+                <option value="dive">Dive</option>
+                <option value="custom">Custom</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Size:</legend>
+            <select name="fontSize" id="fontSize">
+                <option value="t">Tiny</option>
+                <option value="s">Small</option>
+                <option value="m" selected>Medium</option>
+                <option value="l">Large</option>
+                <option value="xl">Extra Large</option>
+                <option value="xxl">XXL</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Speed:</legend>
+            <label><input id="turbo" type="checkbox">Turbo</label>
+        </fieldset>
+    </div>
+
+    <div id="validationIcons">
+        <a href="https://validator.w3.org/check/https://rufael22.github.io">
+            <img alt="Validate" src="w3c-html.png" />
+        </a>
+        <br>
+        <a href="https://jigsaw.w3.org/css-validator/check/https://rufael22.github.io">
+            <img alt="Valid CSS!" src="w3c-css.png" />
+        </a>
+        <br>
+        <a href="https://webster.cs.washington.edu/jslint/https://rufael22.github.io">
+            <img src="w3c-js.png" alt="Valid Js" />
+        </a>
+    </div>
+
+</body>
+
+</html>
