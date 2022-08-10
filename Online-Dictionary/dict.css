@@ -1,0 +1,45 @@
+header {
+    margin: 0;
+    background-color: rgb(128, 128, 128);
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    padding: 10px;
+}
+
+.title {
+    background-color: rgb(98, 118, 234);
+    padding: 10px;
+}
+
+.search {
+    background-color: rgb(149, 152, 162);
+    padding: 10px;
+}
+
+#loader {
+    text-align: center;
+    padding: 50px;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    border : 2px solid gray;
+    border-radius: 5px;
+    box-shadow: gray 0px 0px 5px;
+    width: 75%;
+}
+
+#w3c {
+    text-align: end;
+}
